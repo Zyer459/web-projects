@@ -1,0 +1,13 @@
+source - do not remember
+
+objective - learn how to style button links with transition, some photoshop, position(absolute & relative), simple transitions & css grid.
+
+focus - using transitions, photoshop custom patterns, position property & css grid layout.
+
+problems - the reference demo webpage was too complex for a beginner. lost interest. dragging for too long. need more practice & patience.
+
+description - The webpage seemed medium difficulty at first, really it was quite hard. screwed up in photoshop while making images for the hover-zoom images
+              lost interest after that but still kept on going. Grid layout of a group of images will be the last thing I do before terminating this project.
+              so expect future edits.
+
+date - 6/DECEMBER/2022
