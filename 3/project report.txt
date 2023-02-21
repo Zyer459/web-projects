@@ -1,0 +1,13 @@
+source - odin project - landing page
+
+objective - to learn alignment & distribution of elements within container.
+
+focus - using CSS flexbox & flex properties.
+
+problems - difficulty understanding flex & flex-bias, text layout & text-wrapping.
+
+description - a very simple webpage with very simple style and focuses on flex layout.
+              contains no transitions or animations.It took more than 2 hours but less than 3 hours.
+              avoid use of flex shotrhand without proper understanding & do not know why changing the text-font changed the text-layout.
+
+date - 27/NOVEMBER/2022
