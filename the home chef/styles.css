@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    border: none;
+}
+
+/* use universal selector to reset box-sizing to be limited to border box
+and remove default browser borders by border: none property/rule
+*/
+
+html {
+    scroll-behavior: smooth; /*for smooth scrolling*/
+}
+
+a.lnk {
+    color: black;
+}
+a.active {
+    color: rgb(49, 49, 196);
+    background-color: rgba(214, 214, 214, 0.6);
+    border-radius: 5px;
+}
+/*to identify current page*/
+
+.nav-link {
+    transition: all 400ms ease-in-out;
+}
+.nav-link:hover {
+    color: #f5881b;
+    cursor: pointer;
+}
+
+div.nav_container_right {
+    display: flex;
+    justify-content: flex-end;
+}
+/*move the links right*/
+
+header {
+    margin: 1.5rem;
+}
+
+main {
+    margin: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#begin {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+li::marker {
+    color: #f5881b;
+}
+/* to select marker of list items*/
+
+.ingredients {
+    line-height: 2.5rem;
+}
+
+.details {
+    margin-top: 1.6rem;
+}
+
+div.picture {
+    margin: 1rem;
+    width: 50vw;
+    height: auto;
+}
+
+.picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.my-btn {
+    margin: 1rem;
+}

@@ -1,0 +1,20 @@
+HTML
+1. <meta> tag : to add metadata to webpage
+2. <nav> tag : for the navigation bar, to define a section of a page that links to other pages or to parts within the page
+3. <div> tag : to create a seperate division for other elements, mainly used as a container
+4. <img> tag: to include images
+5. <a> tag: for hyperlinks
+6. <button> taag: for navigation toggler and buttons in the cards in homepage
+7. <ul> tag: for creating unordered list
+8. <li> tag: to add list items
+9. <header> tag: to seperate the start of page
+10. <main> tag: to seperate the main content of page
+
+CSS
+1. line-height
+2. box-sizing
+3. border
+4. background-color
+5. display
+
+a custom javascript script that congratulates the user if user clicks on a button which says "I made it!" and used bootstrap for the navigation and responsiveness of the website.
