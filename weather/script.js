@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     console.log('remake the whole project later');
-    const apiKey = '644ef4d0b0afefb9a45b514d6d91c3ae';
+    const apiKey = 'hidden';
     const btn = document.getElementById('search');
 
     btn.addEventListener('click', function getWeather() {
