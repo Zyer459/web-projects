@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<ol>
+    {% for task in show %}
+        <li>{{ task[0] }}</li>
+
+        <!-- Delete Task -->
+        <form action="/delete" method="POST" style="display:inline;">
+            <input type="hidden" name="task_name" value="{{ task[0] }}">
+            <button type="submit">Delete Task</button>
+        </form>
+
+        <!-- Update Task -->
+        <form action="/update" method="POST" style="display:inline;">
+            <input type="hidden" name="old_task" value="{{ task[0] }}">
+            <input type="text" name="new_task" placeholder="New task name" required>
+            <button type="submit">Update Task</button>
+        </form>
+        <br>
+    {% endfor %}
+</ol>
+{% endblock %}

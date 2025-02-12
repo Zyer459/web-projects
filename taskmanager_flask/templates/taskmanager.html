@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<form action='/' method='post'>
+	<input name="task" type="text" autocomplete="off" placeholder="Task" type="text">
+	<button type="submit">Add task</button>
+</form>
+
+<form action='/alltasks'>
+<button type="submit">Show all tasks</button>
+</form>
+
+{% endblock %}
