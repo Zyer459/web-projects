@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1rem;
+}
+
+div {
+    margin: 1rem;
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+}
