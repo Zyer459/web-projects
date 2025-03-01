@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Flipper</title>
+</head>
+
+<body>
+    <nav>
+        <div class="header">
+            <a href="index.html">
+                <h1 id="site-header">
+                    Color Flipper
+                </h1>
+            </a>
+            <ul class="nav-items">
+                <li>
+                    <a href="RGB.html">RGB</a>
+                </li>
+                <li>
+                    <a href="HEX.html">HEX</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main id="main">
+        <div class="container">
+            <div class="text-bg">
+                <h2>
+                    Current color : <span id="color">#0000FF</span>
+                </h2>
+            </div>
+            <br>
+            <br>
+            <button class="btn" id="change" onclick="change()">
+                Change color
+            </button>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
